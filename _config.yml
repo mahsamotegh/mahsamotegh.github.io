@@ -10,11 +10,11 @@ title:            Mahsa Motegh
 tagline:          'A Jekyll theme'
 description:      'E-Mobility & Energy Transition Consultant'
 url:              http://mahsamotegh.github.io
-baseurl:          /
+baseurl:          
 
 author:
   name:           'Mahsa Motegh'
-  url:            https://twitter.com/mahsamotegh
+  url:            http://mahsamotegh.github.io
 
 paginate:         5
 paginate_path: "/page:num/"
