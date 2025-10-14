@@ -28,3 +28,8 @@ github:
 plugins:
   - jekyll-paginate
   - jekyll-gist
+
+kramdown:
+  input: GFM
+  parse_block_html: true
+  parse_span_html: true
