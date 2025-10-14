@@ -14,6 +14,7 @@ ISSN 1385-8947.
 <br> [https://doi.org/10.1016/j.cej.2014.02.075](https://doi.org/10.1016/j.cej.2014.02.075).
 
 2. **Mahsa Motegh**, J. Ruud van Ommen, Peter W. Appel, and Michiel T. Kreutzer
+Scale-Up Study of a Multiphase Photocatalytic Reactor—Degradation of Cyanide in Water over TiO2,
 Environmental Science & Technology 2014 48 (3), 1574-1581. <br>
 [https://doi.org/10.1021/es403378e](https://doi.org/10.1021/es403378e)
 
