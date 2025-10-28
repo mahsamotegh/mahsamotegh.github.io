@@ -29,6 +29,12 @@
          {% endfor %}
          <a class="sidebar-nav-item" href="{{ '/publication/' | relative_url }}">Publications</a>
          <a class="sidebar-nav-item" href="https://github.com/mahsamotegh">GitHub</a>
+         <!-- ✉️ Email and Twitter icons -->
+         <span class="sidebar-nav-item">
+         <a href="mailto:mmotegh@emba18.rsm.nl" title="Email" style="font-size:1.3em;">&#x2709;</a>
+         &nbsp;
+         <a href="https://x.com/mahsamotegh" title="Twitter" style="font-size:1em;">&#x1D54F; (Twitter)</a>
+         </span>
          <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
       </nav>
       <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
