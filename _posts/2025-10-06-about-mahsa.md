@@ -13,6 +13,6 @@ Today, I work as a **freelance consultant** specializing in **E-Mobility Strateg
 
 My mission is to **empower the energy transition** by connecting technology, strategy, and leadership — creating systems that not only perform efficiently but also contribute to a more resilient, low-carbon future.
 
-You can learn more about my professional background on my [LinkedIn profile](https://www.linkedin.com/in/mmotegh/?originalSubdomain=nl), or view my detailed CV <a href="/assets/CV.pdf"> here </a>
+You can learn more about my professional background on my [LinkedIn profile](https://www.linkedin.com/in/mmotegh/?originalSubdomain=nl), or view my detailed CV <a href="/assets/CV2.pdf"> here </a>
 
 ---
