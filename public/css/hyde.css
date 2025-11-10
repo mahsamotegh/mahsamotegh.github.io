@@ -262,3 +262,33 @@ a.sidebar-nav-item:focus {
   border-radius: 50%;    /* make circular */
   margin: 0 auto;        /* center horizontally */
 }
+
+/* ===============================
+   Custom: QR code placement
+   =============================== */
+
+/* Default (mobile-first): centered */
+.qr-wrapper {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.qr-img {
+  width: 120px;
+  border-radius: 10px;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for desktop */
+.qr-img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Desktop: align QR code to left */
+@media (min-width: 48em) {
+  .qr-wrapper {
+    text-align: left;
+  }
+}

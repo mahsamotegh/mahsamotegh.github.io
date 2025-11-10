@@ -49,12 +49,15 @@
   </a>
 </span>
 
-         <!-- QR Code below social icons -->
-      <div class="sidebar-nav-item" style="margin-top:10px; text-align:center;">
-         <a href="https://myurls.co/mahsamotegh" target="_blank" title="Scan or click QR code" style="display:inline-block;">
-             <img src="{{ '/assets/qrcode.png' | relative_url }}" alt="QR Code" style="width:120px; border-radius:10px; opacity:0.8;transition:all 0.3s ease;">
-         </a>
-      </div>
+        <!-- 📱 QR Code below social icons -->
+<div class="sidebar-nav-item qr-wrapper">
+  <a href="https://your-destination-url.com" target="_blank" title="Scan or click QR code" style="display:inline-block;">
+    <img src="{{ '/assets/qrcode.png' | relative_url }}"
+         alt="QR Code"
+         class="qr-img">
+  </a>
+</div>
+      
          <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
       </nav>
       <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
