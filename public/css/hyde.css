@@ -264,7 +264,7 @@ a.sidebar-nav-item:focus {
 }
 
 /* ===============================
-   Custom: QR code placement
+   QR code
    =============================== */
 
 /* Default (mobile-first): centered */
@@ -292,3 +292,49 @@ a.sidebar-nav-item:focus {
     text-align: left;
   }
 }
+
+/* ===============================
+   Hover effect for social icons
+   =============================== */
+
+.sidebar-nav-item a i {
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+/* Same hover as QR code */
+.sidebar-nav-item a i:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+
+/* ===============================
+   Hover effect for sidebar links
+   =============================== */
+
+/* Base transition for all sidebar links (text links only) */
+.sidebar-nav a.sidebar-nav-item {
+  display: block;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for text links (Home, Publications, etc.) */
+.sidebar-nav a.sidebar-nav-item:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  transform-origin: left center;
+}
+
+/* Keep individual hover for social icons */
+.sidebar-nav-item a i {
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.sidebar-nav-item a:hover i {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
