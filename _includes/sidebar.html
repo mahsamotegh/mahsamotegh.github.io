@@ -30,7 +30,7 @@
          <a class="sidebar-nav-item" href="{{ '/publication/' | relative_url }}">Publications</a>
          <a class="sidebar-nav-item" href="https://github.com/mahsamotegh">GitHub</a>
          
-         <!-- ✉️ Email and Twitter icons -->
+         <!-- ✉️ Email and social icons -->
          <span class="sidebar-nav-item">
          <a href="mailto:mmotegh@emba18.rsm.nl" title="Email" style="font-size:1.5em;">&#x2709;</a>
          &nbsp;
@@ -42,6 +42,11 @@
            </svg>
          </a>
          </span>
+
+         <!-- QR Code below social icons -->
+      <div class="sidebar-nav-item" style="margin-top:10px; text-align:center;">
+        <img src="{{ '/assets/qrcode.png' | relative_url }}" alt="QR Code" style="width:120px; border-radius:10px; opacity:0.8;">
+      </div>
          <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
       </nav>
       <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
